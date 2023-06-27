@@ -1,0 +1,11 @@
+.btn-download {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-download:hover {
+    background-color: #4a86e8; /* Updated hover background color */
+  }
+  
+  .btn-download:active {
+    transform: translateY(2px); /* Add a slight vertical offset when button is clicked */
+  }

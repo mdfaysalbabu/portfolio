@@ -1,0 +1,15 @@
+.custom-progress .react-sweet-progress-line-inner {
+    background-color:teal;
+  }
+  
+  .custom-progress .react-sweet-progress-line-inner .react-sweet-progress-line-status {
+    background-color: #000000;
+  }
+  
+  .custom-progress .react-sweet-progress-symbol {
+    color: #000000;
+  }
+  
+  .custom-progress .react-sweet-progress-trail {
+    background-color: #E5E7EB;
+  }
