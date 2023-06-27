@@ -90,7 +90,7 @@ const Contact = () => {
             <div className="flex flex-col space-y-4 text-start">
               <div className="flex items-center">
                 <FaMapMarkerAlt className="h-6 w-6 text-white mr-2" />
-                <p className="text-white">123 Street, City, Country</p>
+                <p className="text-white">Thakurgaon 5100 Bangladesh</p>
               </div>
               <div className="flex items-center">
                 <FaPhone className="h-6 w-6 text-white mr-2" />
@@ -98,7 +98,7 @@ const Contact = () => {
                   href="tel:+1234567890"
                   className="text-white hover:underline"
                 >
-                  +1234567890
+                  +8801797657407
                 </a>
               </div>
               <div className="flex items-center">

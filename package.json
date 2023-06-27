@@ -21,6 +21,8 @@
     "react-router-dom": "^6.14.0",
     "react-router-hash-link": "^2.4.3",
     "react-sweet-progress": "^1.1.2",
+    "react-typewriter-effect": "^1.1.0",
+    "react-typical": "^0.1.3",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {

@@ -105,30 +105,30 @@ const Header = () => {
         }`}
       >
         <div className="container mx-auto px-4 py-6 flex items-center justify-between">
-          <div className="text-white text-xl font-bold">Your Logo</div>
+          <div className="text-red-400  font-bold text-2xl">Faysal.ME</div>
           <nav className={`md:block ${isMenuOpen ? "block" : "hidden"}`}>
             <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
               <Link
                 to="#"
-                className="text-white hover:bg-purple-700 px-3 py-2 rounded-md text-sm font-medium"
+                className="text-orange-100 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-semibold"
               >
                 Home
               </Link>
               <Link
                 to="#projects"
-                className="text-white hover:bg-purple-700 px-3 py-2 rounded-md text-sm font-medium"
+                className="text-orange-100 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-semibold"
               >
                 Projects
               </Link>
               <Link
                 to="#contact"
-                className="text-white hover:bg-purple-700 px-3 py-2 rounded-md text-sm font-medium"
+                className="text-orange-100 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-semibold"
               >
                 Contact
               </Link>
               <Link
                 to="#skill"
-                className="text-white hover:bg-purple-700 px-3 py-2 rounded-md text-sm font-medium"
+                className="text-orange-100 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-semibold"
               >
                 Skill
               </Link>
