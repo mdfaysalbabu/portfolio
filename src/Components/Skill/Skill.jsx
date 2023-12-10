@@ -92,14 +92,14 @@ const Skill = () => {
   ];
 
   return (
-    <section id="skill" className="bg-gradient-to-r from-gray-900 to-purple-400 py-12">
+    <section id="skill" className="bg-gradient-to-r from-black to-gray-600 py-12">
     
       <div className="container mx-auto">
         <h2 className="text-3xl text-white font-bold text-center mb-8">Skills</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {skills.map((skill, index) => (
             <Zoom key={index} duration={800} delay={index * 200}>
-              <div className="flex flex-col items-center justify-center bg-slate-300 p-4 rounded shadow-md">
+              <div className="flex flex-col items-center justify-center bg-gray-300 p-4 rounded shadow-md">
                 <div className="text-gray-500 mb-2">{skill.icon}</div>
                 <h3 className="text-lg font-semibold text-gray-800">
                   {skill.name}

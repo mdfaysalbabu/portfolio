@@ -12,10 +12,10 @@ const projects = [
     description:
       "Both logging in and creating an account are options available here. Users can log in also using their Google accounts. Logged in users will redirect to the home page automatically  A private route has been established in the viewDetails page is a private page Users who are logged in have the ability to add toys and check my toys.",
     image:
-      "https://img.freepik.com/free-vector/graphic-design-idea-concept_52683-5325.jpg?size=626&ext=jpg&ga=GA1.1.1676688474.1687690117&semt=ais",
+      "https://i.ibb.co/KwRG1g4/Screenshot-192.png",
     serverLink: "https://github.com/mdfaysalbabu/toy_server",
     clientLink: "https://github.com/mdfaysalbabu/toy_dream",
-    liveLink: "https://car-toys-client.web.app/",
+    liveLink: "https://car-toys-client.web.app",
     technology:
       "Tailwind,DaisyUi, ReactJS, NodeJS, Express, firebase authentication,MongoDb",
   },
@@ -25,10 +25,10 @@ const projects = [
     description:
       "have a chef card section and add view details button if click button then will be viewDetails page.viewDetails page have a chef bio and 3 recipes items in the card  This website have a blog page in blog page have a pdf user can download the pdf  logging in and creating an account are options available here. ",
     image:
-      "https://img.freepik.com/free-vector/graphic-design-idea-concept_52683-5325.jpg?size=626&ext=jpg&ga=GA1.1.1676688474.1687690117&semt=ais",
+      "https://i.ibb.co/W3QdQnx/Screenshot-195.png",
     serverLink: "https://github.com/mdfaysalbabu/recipes_server",
     clientLink: "https://github.com/mdfaysalbabu/recipes",
-    liveLink: "https://chef-project-c78cd.web.app/#",
+    liveLink: "https://chef-project-c78cd.web.app",
     shortDescription: "Short description for Project 2",
     technology:
       " React Bootstrap, ReactJS, NodeJS, Express, toast, firebase authentication,React Lazy Load",
@@ -39,10 +39,10 @@ const projects = [
     description:
       "The Sports Academy website includes Both logging in and creating an account are options available here  The website includes a user-friendly dashboard admin and instructor dashboard here  The website includes a Payment Method user can easily pay and buy classes and payment history check easily and delete option here.",
     image:
-      "https://img.freepik.com/free-vector/graphic-design-idea-concept_52683-5325.jpg?size=626&ext=jpg&ga=GA1.1.1676688474.1687690117&semt=ais",
+      "https://i.ibb.co/dbqKgHW/Screenshot-200.png",
     serverLink: "https://github.com/mdfaysalbabu/serverSports",
     clientLink: "https://github.com/mdfaysalbabu/clientSports",
-    liveLink: "https://sports-academy-b5235.web.app/",
+    liveLink: "https://sports-academy-b5235.web.app",
     shortDescription: "Short description for Project 3",
     technology:
       "Tailwind, ReactJS,Axios,TanStack Query,react-hook-form,MongoDB,JWT.",
@@ -53,7 +53,7 @@ const projects = [
     description:
       "First make a feature jobs array as a prop Use the UseState Hook Default display 4 jobs card and then click show all button display total jobs card 6.click view details button then links to a job detail page.other category display 4 card category thats name job category list.Feature job card display company logo,company name,location,salary,onsite and full time .",
     image:
-      "https://img.freepik.com/free-vector/graphic-design-idea-concept_52683-5325.jpg?size=626&ext=jpg&ga=GA1.1.1676688474.1687690117&semt=ais",
+      "https://i.ibb.co/vYVkvCp/Screenshot-201.png",
     serverLink: "https://github.com/mdfaysalbabu/serverSports",
     clientLink: "https://github.com/mdfaysalbabu/clientSports",
     liveLink: "https://peaceful-fudge-892ad2.netlify.app/",
@@ -79,7 +79,7 @@ const Project = () => {
   return (
     <section
       id="projects"
-      className="portfolio-section bg-gradient-to-r from-gray-900 to-purple-400 py-10"
+      className="portfolio-section bg-gradient-to-r from-black to-gray-600 py-10"
     >
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8 text-white">

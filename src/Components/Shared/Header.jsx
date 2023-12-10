@@ -2,11 +2,7 @@ import React, { useEffect, useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Header = () => {
-  //   const [isOpen, setIsOpen] = useState(false);
-
-  //   const toggleNavbar = () => {
-  //     setIsOpen(!isOpen);
-  //   };
+  
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -31,73 +27,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    // <nav className="bg-gradient-to-r bg-opacity-30     from-gray-900 to-blue-400">
-    //   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    //     <div className="flex items-center justify-between h-16">
-    //       <div className="flex-shrink-0">
-    //         <h1 className="text-white font-bold">My Portfolio</h1>
-    //       </div>
-    //       <div className="block md:hidden">
-    //         <button
-    //           className="text-white hover:bg-purple-700 focus:outline-none focus:bg-purple-700 px-3 py-2 rounded-md"
-    //           onClick={toggleNavbar}
-    //         >
-    //           <svg
-    //             className="h-6 w-6 fill-current"
-    //             xmlns="http://www.w3.org/2000/svg"
-    //             viewBox="0 0 24 24"
-    //           >
-    //             {isOpen ? (
-    //               <path
-    //                 fillRule="evenodd"
-    //                 clipRule="evenodd"
-    //                 d="M4 6H20V8H4V6ZM4 11H20V13H4V11ZM4 16H20V18H4V16Z"
-    //               />
-    //             ) : (
-    //               <path
-    //                 fillRule="evenodd"
-    //                 clipRule="evenodd"
-    //                 d="M4 6H20V8H4V6ZM4 11H20V13H4V11ZM4 16H20V18H4V16ZM4 21H20V23H4V21Z"
-    //               />
-    //             )}
-    //           </svg>
-    //         </button>
-    //       </div>
-    //       <div
-    //         className={`${
-    //           isOpen ? "block" : "hidden"
-    //         } md:block md:flex md:items-center md:w-auto`}
-    //       >
-    //         <div className="ml-10 flex items-baseline space-x-4">
-    //           <Link
-    //             to="#"
-    //             className="text-white hover:bg-purple-700 px-3 py-2 rounded-md text-sm font-medium"
-    //           >
-    //             Home
-    //           </Link>
-    //           <Link
-    //             to="#projects"
-    //             className="text-white hover:bg-purple-700 px-3 py-2 rounded-md text-sm font-medium"
-    //           >
-    //             Projects
-    //           </Link>
-    //           <Link
-    //             to="#contact"
-    //             className="text-white hover:bg-purple-700 px-3 py-2 rounded-md text-sm font-medium"
-    //           >
-    //             Contact
-    //           </Link>
-    //           <Link
-    //             to="#skill"
-    //             className="text-white hover:bg-purple-700 px-3 py-2 rounded-md text-sm font-medium"
-    //           >
-    //             Skill
-    //           </Link>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </nav>
+    
     <div>
       <header
         className={`fixed top-0 left-0 right-0 z-50 ${
@@ -110,25 +40,25 @@ const Header = () => {
             <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
               <Link
                 to="#"
-                className="text-orange-100 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-semibold"
+                className="text-gray-300 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-bold"
               >
                 Home
               </Link>
               <Link
                 to="#projects"
-                className="text-orange-100 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-semibold"
+                className="text-gray-300 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-bold"
               >
                 Projects
               </Link>
               <Link
                 to="#contact"
-                className="text-orange-100 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-semibold"
+                className="text-gray-300 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-bold"
               >
                 Contact
               </Link>
               <Link
                 to="#skill"
-                className="text-orange-100 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-semibold"
+                className="text-gray-300 hover:bg-purple-700 px-3 py-2 rounded-md text-xl font-bold"
               >
                 Skill
               </Link>

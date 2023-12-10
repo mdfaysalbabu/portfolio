@@ -2,7 +2,7 @@
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-gray-900 to-blue-300">
+    <footer className="bg-gray-800">
           <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center mb-4 ml-5 gap-2 md:mb-0">
           <img src="https://i.ibb.co/7jv6dgP/1685692815451.jpg" alt="Your Image" className="w-32 h-40 mt-5 rounded-full mx-auto md:mx-0 md:mr-4" />

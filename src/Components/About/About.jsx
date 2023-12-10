@@ -33,7 +33,7 @@ const About = () => {
     });
   }, []);
   return (
-    <section className="bg-gradient-to-r from-gray-900 to-purple-400 py-12">
+    <section className="bg-gradient-to-r from-black to-gray-600 py-12">
       <h2 className="text-4xl font-extrabold text-white text-center mb-8">
         About Me
       </h2>
